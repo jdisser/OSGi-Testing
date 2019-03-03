@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Osgi_hello
+Bundle-SymbolicName: com.altocirrusapps.osgi_hello
+Bundle-Version: 1.0.0
+Bundle-Activator: com.altocirrusapps.osgi_hello.Activator
+Bundle-Vendor: ALTOCIRRUSAPPS
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: com.altocirrusapps.osgi_hello_service.service,
+ org.osgi.framework;version="1.3.0"
+Automatic-Module-Name: com.altocirrusapps.osgi_hello
+Require-Bundle: com.altocirrusapps.osgi_hello_service;bundle-version="1.0.0"
